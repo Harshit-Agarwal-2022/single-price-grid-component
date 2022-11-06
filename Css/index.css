@@ -1,5 +1,70 @@
 body{
-    background-color: black;
-    color: white;
-    
+    background-color: hsl(204, 43%, 93%);
+    /* color: white; */
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* min-width: 100vw; */
+    font-family: 'Outfit', sans-serif;
 }
+
+.grid_container{
+position: relative;
+left: 13em;
+display: grid;
+grid-template-columns: 1fr 2fr; 
+   
+}
+
+.ele_1{
+    display: flex;
+    flex-direction: column;
+    background-color: peachpuff;
+    min-width: 25rem;
+    max-width: 44rem;
+    /* width: 50px; */
+    min-height: 15rem;
+    padding: 1em;
+    padding-left: 4em;
+
+    grid-column: span 2;
+}
+
+.community_headline{
+    color: hsl(179, 62%, 43%);
+}
+
+.money_back{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    /* font-family: 'Outfit', sans-serif; */
+}
+
+.info{
+    margin: 0;
+    padding-right: 15em;
+    font-weight: 400;
+}
+
+.ele_2{
+    background-color: lime;
+    min-width: 25rem;
+    max-width: 50rem;
+    /* width: 50px; */
+    min-height: 15rem;
+
+}
+
+
+.ele_3{
+    background-color: salmon;
+    min-width: 25rem;
+    max-width: 25rem;
+    /* width: 50px; */
+    min-height: 15rem;
+}
+
